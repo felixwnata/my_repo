@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+	<link type="text/css" rel="stylesheet" href="css/main.css" />
+	<!--Import Devicon Icon style-->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Hellow World</title>
+	<style>
+		a:hover{
+			oppacity :0.5;
+			color : green;
+		}
+	</style>
+</head>
+
+<body id="top-page">
+	<!--- Header --->
+	<header class="main-header-large hide-on-med-and-down">
+		<nav class="transparent z-depth-0 ">
+			<div class="nav-wrapper">
+			<a href="index.html" class="brand-logo hide-on-med-and-down profile-pict-container">
+				<img src="img/Logo.png">
+			</a>
+			<ul class="right hide-on-med-and-down">
+				<li>
+					<a href="#about" class="text-lighten-4">About Me</a>
+				</li>
+				<li>
+					<a href="#education" class="text-lighten-4">Education</a>
+				</li>
+				<li >
+					<a href="#experience" class="text-lighten-4">Experience </a>
+				</li>
+				<li>
+					<a href="#organization" class="text-lighten-4">Organization</a>
+				</li>
+				<li>
+					<a href="#skills" class="text-lighten-4">Skills</a>
+				</li>
+			<ul>
+			</div>
+		</nav>
+	</header>
+  
+	<header class="main-header-small hide-on-large-only ">
+		<nav class="transparent nav-wrapper z-depth-0 ">
+			<div class="nav-wrapper">
+				<a href="#" data-activates="mobile-nav" class="button-collapse hide-on-large-only">
+					<i class="material-icons">menu</i>
+				</a>
+				<a href="#top-page" class="brand-logo center">
+					<img src="img/Logo.png">
+				</a>
+			</div>
+			<ul class="side-nav" id="mobile-nav">
+				<li>
+					<i class="side-nav-head">Quick Action</i>
+					<hr/>
+				</li>
+				<li>
+					<a href="#about" class="">About Me</a>
+				</li>
+				<li>
+					<a href="#education" class="text-lighten-4">Education</a>
+				</li>
+				<li >
+					<a href="#experience" class="text-lighten-4">Experience </a>
+				</li>
+				<li>
+					<a href="#organization" class="text-lighten-4">Organization</a>
+				</li>
+				<li>
+					<a href="#skills" class="text-lighten-4">Skills</a>
+				</li>
+			<ul>
+		</nav>
+	</header>
+	
+	<div class="row">
+		<div class="col s12 m9">
+			<!-- Section : Slider -->
+			<section class="section section-main section1" id="slider">
+				<div class="container">
+					<div class="content-space">
+						<div class="slider">
+							<ul class="slides">
+							  <li>
+								<img class="materialboxed" src="img/1.jpg"/> <!-- random image -->
+								<div class="caption center-align">
+								  <h3>This is our big Tagline!</h3>
+								  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+								</div>
+							  </li>
+							  <li>
+								<img class="materialboxed" src="img/2.jpg"/> <!-- random image -->
+								<div class="caption left-align">
+								  <h3>Left Aligned Caption</h3>
+								  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+								</div>
+							  </li>
+							  <li>
+								<img class="materialboxed" src="img/3.jpg"/> <!-- random image -->
+								<div class="caption right-align">
+								  <h3>Right Aligned Caption</h3>
+								  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+								</div>
+							  </li>
+							  <li>
+								<img class="materialboxed" src="img/4.jpg"/> <!-- random image -->
+								<div class="caption center-align">
+								  <h3>This is our big Tagline!</h3>
+								  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+								</div>
+							  </li>
+							</ul>
+						</div>
+						<!--<div class="carousel carousel-slider center " data-indicators="true">
+							<div class="carousel-fixed-item center middle-indicator">
+								<div class="left">
+									<a href="Previo" class="movePrevCarousel middle-indicator-text waves-effect waves-light content-indicator">
+										<i class="material-icons left  middle-indicator-text">chevron_left</i>
+									</a>
+								</div>
+								<div class="right">
+									<a href="Siguiente" class=" moveNextCarousel middle-indicator-text waves-effect waves-light content-indicator">
+										<i class="material-icons right middle-indicator-text">chevron_right</i>
+									</a>
+								</div>
+							</div>
+							
+							<div class="carousel-item red white-text" href="#one!">
+							  <h2>First Panel</h2>
+							  <p class="white-text">This is your first panel</p>
+							  <img src="img/1.jpg"/>
+							</div>
+							<div class="carousel-item amber white-text" href="#two!">
+							  <h2>Second Panel</h2>
+							  <p class="white-text">This is your second panel</p>
+							  <img src="img/2.jpg"/>							  
+							</div>
+							<div class="carousel-item green white-text" href="#three!">
+							  <h2>Third Panel</h2>
+							  <p class="white-text">This is your third panel</p>
+							  <img src="img/3.jpg"/>
+							</div>
+							<div class="carousel-item blue white-text" href="#four!">
+							  <h2>Fourth Panel</h2>
+							  <p class="white-text">This is your fourth panel</p>
+							  <img src="img/4.jpg"/>
+							</div>
+							
+						</div>-->
+					</div>
+				</div>
+			</section>
+			
+			<!-- Section : left-section2 -->
+			<section class="section section-main section2" id="left-section2">
+				<div class="container">
+					<i class="small material-icons">new_releases</i>&nbsp;NEWS
+					
+					<div class="row">	
+					<div class="col s12 m4">
+						<div class="card">
+							<div class="card-image">
+							  <img src="img/5.jpg">
+							</div>
+							<div class="row" style="padding:0 10px 0 10px">
+								<div class="col s8 left-align">
+									<i class="small material-icons">schedule</i>4 September 2017
+								</div>
+								
+								<div class="col s4 right-align">
+									<i class="small material-icons">textsms</i>12
+								</div>
+							</div>
+						</div>
+						<div>
+							<p>
+								Sed tristique ultrices nisl quis suscipit. Nunc bibendum enim non tincidunt dictum
+							</p>
+						</div>
+					</div>
+					<div class="col s12 m4">
+						<div class="card">
+							<div class="card-image">
+							  <img src="img/1.jpg">
+							</div>
+							<div class="row" style="padding:0 10px 0 10px">
+								<div class="col s8 left-align">
+									<i class="small material-icons">schedule</i>4 September 2017
+								</div>
+								
+								<div class="col s4 right-align">
+									<i class="small material-icons">textsms</i>12
+								</div>
+							</div>
+						</div>
+						<div>
+							<p>
+								Vestibulum euismod viverra dolor eget rhoncos. Etiam mollis lorem.
+							</p>
+						</div>
+					</div>
+					<div class="col s12 m4">
+						<div class="card">
+							<div class="card-image">
+							  <img src="img/2.jpg">
+							</div>
+							<div class="row" style="padding:0 10px 0 10px">
+								<div class="col s8 left-align">
+									<i class="small material-icons">schedule</i>4 September 2017
+								</div>
+								
+								<div class="col s4 right-align">
+									<i class="small material-icons">textsms</i>12
+								</div>
+							</div>
+						</div>
+						<div>
+							<p>
+								Donect ut est magna. Vivamus mattis metus at tristique lobortis
+							</p>
+						</div>
+					</div>
+					
+					<div class="col s12 m4">
+						<div class="card">
+							<div class="card-image">
+							  <img src="img/3.jpg">
+							</div>
+							<div class="row" style="padding:0 10px 0 10px">
+								<div class="col s8 left-align">
+									<i class="small material-icons">schedule</i>4 September 2017
+								</div>
+								
+								<div class="col s4 right-align">
+									<i class="small material-icons">textsms</i>12
+								</div>
+							</div>
+						</div>
+						<div>
+							<p>
+								Cras iaculis mi eu placerat convallis.
+							</p>
+						</div>
+					</div>
+					<div class="col s12 m4">
+						<div class="card">
+							<div class="card-image">
+							  <img src="img/4.jpg">
+							</div>
+							<div class="row" style="padding:0 10px 0 10px">
+								<div class="col s8 left-align">
+									<i class="small material-icons">schedule</i>4 September 2017
+								</div>
+								
+								<div class="col s4 right-align">
+									<i class="small material-icons">textsms</i>12
+								</div>
+							</div>
+						</div>
+						<div>
+							<p>
+								Aliquem sempet ullamcorper efficitur. Suspendisse fringilla sagittis vehicula.
+							</p>
+						</div>
+					</div>
+					<div class="col s12 m4">
+						<div class="card">
+							<div class="card-image">
+							  <img src="img/5.jpg">
+							</div>
+							<div class="row" style="padding:0 10px 0 10px">
+								<div class="col s8 left-align">
+									<i class="small material-icons">schedule</i>4 September 2017
+								</div>
+								
+								<div class="col s4 right-align">
+									<i class="small material-icons">textsms</i>12
+								</div>
+							</div>
+						</div>
+						<div>
+							<p>
+								Quisque fringilla scelerisque metus, ut euismod sapien blandit a.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	
+		<div class="col s12 m3">
+			<!-- Section : right-section1 -->
+			<section class="section section-main section2" id="right-section1">
+				<div class="container">
+					<div class="card">
+						<div class="card-image">
+						  <img src="img/Ava.png">
+						  <span class="card-title ">
+							<center>
+								<div class="white">
+									<p style="color: black;padding-top:10px;padding-bottom:10px;">
+										<b>John Doe</b>
+										<br />
+										President & CEO
+									</p>
+								</div>
+							</center>
+						  </span>
+						</div>
+						<div class="card-content">
+						  <p>I am a very simple card. I am good at containing small bits of information.
+						  I am convenient because I require little markup to use effectively.</p>
+						</div>
+						<div class="card-action right-align">
+						  <a href="#">This is a link</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Section : right-section2 -->
+			<section class="section section-main section2" id="right-section2">
+				<div class="container">
+					<i class="small material-icons">format_quote</i>&nbsp;QUOTE OF THE DAY
+					
+					<div class="card blue">
+						<div class="card-content white-text center">
+						  <p>" Gantungkan cita-citamu setinggi langit. Bermimpilah setinggi langit. Jika engkau terjatuh, engkau akan terjatuh di antara bintang-bintang "</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Section : right-section3 -->
+			<section class="section section-main section2" id="right-section3">
+				<div class="container">
+					<i class="small material-icons">date_range</i>&nbsp;CORPORATE CALENDAR
+					
+					<div class="card blue">
+						<div class="card-content white-text center">
+						  <p>" Gantungkan cita-citamu setinggi langit. Bermimpilah setinggi langit. Jika engkau terjatuh, engkau akan terjatuh di antara bintang-bintang "</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Section : right-section2 -->
+			<section class="section section-main section2" id="right-section4">
+				<div class="container">
+					<i class="small material-icons">announcement</i>&nbsp;ANNOUNCEMENT
+					
+					<ul style="list-style-type: circle;">
+						<li><a href="#">Sed placerat nulla leo, sit amet pharetra sapien maximus in</a></li>
+						<li><a href="#">Fusce a semper felis. Sed aliquam ac arcu et eleifend</a></li>
+						<li><a href="#">Aenean mattis viverra tellus, ac imperdiet odio tristique varius.</a></li>
+						<li><a href="#">Proion dolor metus, eleifend sit amet nibh ut, rhoncus convallis urna.</a></li>
+						<li><a href="#">Quisque accumsan ligula quis consequat lacinia</a></li>
+					  </ul>
+				</div>
+			</section>
+		</div>
+	</div>	
+	
+	<!-- Footer -->
+	<footer class="page-footer hide-on-med-and-down">
+		<div class="footer-copyright">
+		  <div class="container">
+			
+		  </div>
+		</div>
+	</footer>
+
+  
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+		//action button
+		document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.fixed-action-btn');
+			var instances = M.FloatingActionButton.init(elems, {
+				direction: 'left',
+				hoverEnabled: false
+			});
+		});
+		
+		//materialbox
+		$('.materialboxed').materialbox();
+		
+		// Custom JS & jQuery here
+		$('.button-collapse').sideNav();
+
+		//tooltip
+		$('.tooltipped').tooltip();
+		
+		//slider
+		$('.slider').slider();
+		
+		// start carrousel
+		$('.carousel.carousel-slider').carousel({
+		  fullWidth: true,
+		  indicators: true
+		});
+
+		// move next carousel
+		$('.moveNextCarousel').click(function(e){
+		  e.preventDefault();
+		  e.stopPropagation();
+		  $('.carousel').carousel('next');
+		});
+
+		// move prev carousel
+		$('.movePrevCarousel').click(function(e){
+		  e.preventDefault();
+		  e.stopPropagation();
+		  $('.carousel').carousel('prev');
+		});
+
+		//scrollfire
+		const options = [
+		{
+			selector: '.section1', offset: 50, callback: function (el){
+				Materialize.fadeInImage($(el));
+			}
+		},
+		{
+			selector: '.section2', offset: 200, callback: function (el){
+				Materialize.fadeInImage($(el));
+			}
+		},
+		{
+			selector: '.section3', offset: 250, callback: function (el){
+				Materialize.fadeInImage($(el));
+			}
+		},
+		{
+			selector: '.section4', offset: 300, callback: function (el){
+				Materialize.fadeInImage($(el));
+			}
+		},
+		{
+			selector: '.section5', offset: 350, callback: function (el){
+				Materialize.fadeInImage($(el));
+			}
+		}]
+
+		Materialize.scrollFire(options);
+    });
+	
+	window.onscroll = function() {scrollFunction()};
+	
+	function scrollFunction() {
+		if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+			document.getElementById("btn_nav").style.display = "block";
+		} else {
+			document.getElementById("btn_nav").style.display = "none";
+		}
+	}
+  </script>
+</body>
+
+</html>

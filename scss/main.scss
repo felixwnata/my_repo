@@ -1,0 +1,143 @@
+@import './materialize';
+
+//header
+$header-bg : url(../img/pattern.png);
+$header-height-small: 50px;
+$header-height-large: 300px;
+
+$body-bg : url(../img/background.jpg);
+
+//text color function
+@function set-text-color($color){
+	@if(lightness($color) > 50){
+		@return #000000;
+	} @else {
+		@return #ffffff;
+	}
+}
+
+html{
+	margin : 0;
+	padding : 0;
+	height: 100%;
+}
+
+body {
+	background-image : $body-bg;
+	background-position:center;
+	background-attachment: fixed;
+	color : set-text-color($primary-color);
+	margin : 0;
+	padding : 0;
+	height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header-small {
+	background : $header-bg;
+	color : #fff;
+	height : $header-height-small;
+	margin-bottom : 30px;
+	position : fixed;
+	width : 100%;
+	z-index : 2;
+}
+
+.main-header-large{
+	background : $header-bg;
+	color : #fff;
+	height : $header-height-large;
+	margin-bottom : 30px;
+	
+	h1 {
+		margin :0;
+		padding-top: 30px;
+	}
+}
+
+.page-footer{
+	background : $header-bg
+}
+
+.pad-footer{
+	padding-right : 10px;
+}
+
+.profile-pict-container{
+	margin : 50px 0 0 100px
+}
+
+.profile-pict{
+	height : 180px;
+	width : 200px;
+}
+
+.same-bg{
+	background : $header-bg;
+}
+
+
+
+.section1,
+.section2,
+.section3,
+.section4,
+.section5{
+	opacity : 0;
+}
+
+.sub-content{
+	font-size : 20px;
+	padding-bottom : 30px
+}
+
+.content-date{
+	font-size : 18px;
+	color : brown;
+}
+
+.content-space{
+	margin-top : 50px;
+	margin-bottom : 50px;
+}
+
+.content-desc{
+	color : gray;
+}
+
+.skill-content{
+	margin-top : 50px
+}
+
+.skill-icon{
+	font-size : 50px;
+	a{
+		color: grey;
+	}
+}
+
+.skill-pad-left{
+	padding-left : 30px
+}
+
+.button-icon:hover{
+	oppacity :0.5;
+	color : green;
+}
+
+a{
+	color : brown;
+}
+a:hover{
+	oppacity :0.5;
+	color : green;
+}
+
+.org-content{
+	font-size : 20px;
+}
+
+.footer_link{
+	color : white;
+}
